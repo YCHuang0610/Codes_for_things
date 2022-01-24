@@ -1,6 +1,7 @@
 import os
 import shutil
-
+#用来把所有子文件夹中的文件挪出来的小程序，用来汇总照片图片。
+#把该程序放在目录中双击就行
 #递归寻找文件
 def findfile(working_path, file_list):
     for file_or_dir in os.listdir(working_path):
